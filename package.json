@@ -1,0 +1,32 @@
+{
+  "name": "electron-vue_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/naritashin/electron-vue_test.git",
+  "author": "Shin Narita <triplfjump1417@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "css-loader": "^1.0.0",
+    "electron": "^2.0.8",
+    "electron-builder": "^20.28.3",
+    "electron-devtools-installer": "^2.2.4",
+    "style-loader": "^0.23.0",
+    "vue": "^2.5.17",
+    "vue-electron": "^1.0.6",
+    "vue-loader": "^15.4.1",
+    "vue-router": "^3.0.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.5.17",
+    "vuex": "^3.0.1",
+    "vuex-router-sync": "^5.0.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-serve": "^2.0.2"
+  }
+}
