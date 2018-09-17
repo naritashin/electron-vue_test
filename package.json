@@ -17,6 +17,8 @@
     "electron-builder": "^20.28.3",
     "electron-cli": "^0.2.8",
     "electron-devtools-installer": "^2.2.4",
+    "html-webpack-plugin": "^3.2.0",
+    "path": "^0.12.7",
     "style-loader": "^0.23.0",
     "vue": "^2.5.17",
     "vue-electron": "^1.0.6",
@@ -31,6 +33,8 @@
     "webpack-serve": "^2.0.2"
   },
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dev": "webpack-serve",
+    "build": "webpack"
   }
 }
