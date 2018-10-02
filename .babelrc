@@ -1,6 +1,5 @@
 {
   "presets": [
-    "env",
-    "es2017"
+    "@babel/preset-env"
   ]
 }

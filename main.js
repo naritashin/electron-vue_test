@@ -2,6 +2,20 @@ import {
   app,
   BrowserWindow
 } from 'electron';
+import debug from 'electron-debug';
+import installExtension from 'electron-devtools-installer';
+
+debug({
+  showDevTools: true
+});
+
+app.on('ready', () => {
+  installExtension(installExtension.VUEJS_DEVTOOLS)
+    .then(() => {})
+    .catch(err => {
+      console.log(err);
+    });
+});
 
 let mainWindow;
 
